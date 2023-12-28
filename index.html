@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-content">
+             <h3>Hello,It's Me</h3>
+             <h1>Rudhra Pratap Singh</h1>
+             <h3>And I'm a <span class="multiple-text"></span></h3>
+             <p> Front-end developer, YouTuber, student<br>creating engaging web interfaces with coding, design, and content.</p>
+             <div class="social-media">
+                <a href="www.linkedin.com/in/rudhra-pratap-singh-02437a240"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://github.com/Rudhra-123"><i class='bx bxl-github'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+             </div>
+             <a href="https://tinyurl.com/RudhraResume" class="btn">Download Resume</a>
+        </div>
+
+        <div class="home-img">
+            <img src="images/Untitled.jpeg" alt="" srcset="">
+        </div>
+
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="images/Untitled (1).jpeg" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Frontend Developer</h3>
+            <p>
+                B.Tech in Computer Science, skilled in tech and interpersonal <br> MERN stack intern, hardworking, keen learner in web development.
+            </p>
+            <a href="#" class ="btn">Read More</a>
+        </div>
+
+    </section>
+
+   <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+
+    <div class="skills-container">
+        <div class="skills-box">
+        <i class='bx bx-code-alt'></i> 
+        <h3>Web Development</h3>
+        </div>
+
+        <div class="skills-box">
+            <i class='bx bxl-sketch'></i>
+            <h3>Web Design</h3>
+            </div>
+
+            <div class="skills-box">
+                <i class='bx bxl-react'></i>
+                <h3>React.js</h3>
+                </div>
+           <div class="skills-box">
+            <i class='bx bxl-redux'></i>
+            <h3>Redux</h3>
+            </div>
+            <div class="skills-box">
+                <i class='bx bxl-java'></i>
+                <h3>Java</h3>
+                </div>
+                <div class="skills-box">
+                    <i class='bx bxl-html5'></i>
+                    <h3>HTML</h3>
+                    </div>  
+                    <div class="skills-box">
+                        <i class='bx bxl-css3'></i>
+                        <h3>CSS</h3>
+                    </div>
+                    <div class="skills-box">
+                        <i class='bx bxl-javascript'></i>
+                        <h3>JavaScript</h3>
+                  </div>       
+    </div>
+   </section>
+
+   <section class="portfolio" id="portfolio">
+    <h2 class="heading">Latest <span>Project</span></h2>
+    <div class="portfolio-container">
+        <div class="portfolio-box">
+            <img src="images/pexels-matheus-cenali-2733918.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>E-commerce grocery website</h4>
+                <p>Full fleged e-commerce website using mern stack</p>
+                <a href="https://e-sabjiwala.vercel.app/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+
+        <div class="portfolio-box">
+            <img src="images/download.png" alt="">
+            <div class="portfolio-layer">
+                <h4>Code-Editor</h4>
+                <p>Code-editor using React.js</p>
+                <a href="https://bestonlinecodeeditor.netlify.app/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>
+    <div class="portfolio-box">
+        <img src="images/preview.jpg" alt="">
+        <div class="portfolio-layer">
+            <h4>Gym fitness Website</h4>
+            <p>Gym fitness Website using React.js</p>
+            <a href="https://gymfitnessappp.netlify.app/"><i class='bx bx-link-external'></i></a>
+        </div>
+    </div>
+
+        <div class="portfolio-box">
+            <img src="images/maxresdefault.jpg" alt="">
+            <div class="portfolio-layer">
+                <h4>Sorting Visualizer</h4>
+                <p>Sorting Alogorithm using HTML,CSS &JAVASCRIPT</p>
+                <a href="https://sortingvisualizerwebsite.netlify.app/"><i class='bx bx-link-external'></i></a>
+            </div>
+        </div>    
+    </div>
+   </section>
+
+   <section class="contact" id="contact">
+    <h2 class="heading">Contact <span>Me!</span></h2>
+
+    <form name="submit-to-google-sheet">
+        <div class="input-box">
+            <input type="text"  Name="name" placeholder="Full Name">
+            <input type="email" Email="email" placeholder="Email Address">
+        </div>
+
+        <div class="input-box">
+            <input type="number" Mobile Number="mobile number" placeholder="Mobile Number">
+            <input type="text"  EmailSubject="emailsubject"placeholder="Email Subject">
+        </div>
+        <textarea name="message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+        <input type="submit" value="Send Message" class="btn">
+    </form>
+    <span id="msg"></span>
+   </section>
+
+
+   <footer class="footer">
+    <div class="footer-text">
+        <p><i class='bx bxs-envelope' ></i>singh.prataprudhra2016970@gmail.com</p>
+        <p><i class='bx bxs-phone'></i>9264943054</p>
+        <p>Copyright &copy; by RPS</p>
+    </div>
+
+    <div class="footer-iconTop">
+        <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+    </div>
+   </footer>
+
+
+   <script src="https://unpkg.com/scrollreveal"></script>
+
+   <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
